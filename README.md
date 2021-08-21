@@ -26,13 +26,13 @@ If you want to submit on [snakes 2P](http://www.jidiai.cn/snakes2p), remember to
 
 Then you can get a ranking slightly below that
 
-![](assets\1v1_ranking.png)
+![1v1_ranking](assets/1v1_ranking.png)
 
-![](assets\3v3_ranking.png)
+![3v3_ranking](assets/3v3_ranking.png)
 
-![](assets\2p_ranking.png)
+![2p_ranking](assets/2p_ranking.png)
 
-![](assets\5p_ranking.png)
+![5p_ranking](assets/5p_ranking.png)
 
 # Acknowledgments
 
