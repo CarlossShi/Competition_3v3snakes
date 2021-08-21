@@ -1,8 +1,6 @@
 # Competition_3v3snakes
 
-Heuristic algorithm of [snakes 3V3](http://www.jidiai.cn/snakes) on [Jidi](http://www.jidiai.cn/) platform. Also suitable for [snakes 1V1](http://www.jidiai.cn/snakes1v1), [snakes 2P](http://www.jidiai.cn/snakes2p) and [snakes 5P](http://www.jidiai.cn/snakes5p). For algorithm details, see [Jidi Snakes 3V3](https://www.yuchen.xyz/2021/08/21/Jidi%20Snakes%203V3/).
-
-The code will be pushed at the end of the month.
+Demo heuristic algorithm of [snakes 3V3](http://www.jidiai.cn/snakes) on [Jidi](http://www.jidiai.cn/) platform. Also suitable for [snakes 1V1](http://www.jidiai.cn/snakes1v1), [snakes 2P](http://www.jidiai.cn/snakes2p) and [snakes 5P](http://www.jidiai.cn/snakes5p). For algorithm details, see [Jidi Snakes 3V3](https://www.yuchen.xyz/2021/08/21/Jidi%20Snakes%203V3/).
 
 <img src="assets/game_matrix_200.gif" alt="game_matrix_200" style="zoom: 67%;" />
 
@@ -12,16 +10,31 @@ The code will be pushed at the end of the month.
 
 ## Debug
 
-`/agent/heuristic/submission.py` is used to debug.
+`/agent/debug/submission.py` is used to debug.
 
-Run `python run_log.py --my_ai "heuristic" --opponent "heuristic" > output.txt`.
+Run `python run_log.py --my_ai "debug" --opponent "debug" > output.txt` and wait for one minute.
 
-Check `output.txt` in main directory and images in `/images_init_board`.
+Check `output.txt` in main directory and game matrix images in `/images_init_board` and territory matrix images in `/images_board`.
 
 ## Submit
 
-Migrate your modification to `/agent/contest/submission.py` and submit.
+Migrate your modification to `/agent/submit/submission.py` and submit.
+
+You can directly make a submission on [snakes 1V1](http://www.jidiai.cn/snakes1v1), [snakes 3V3](http://www.jidiai.cn/snakes) and [snakes 5P](http://www.jidiai.cn/snakes5p).
+
+If you want to submit on [snakes 2P](http://www.jidiai.cn/snakes2p), remember to change the variable `teams` to `[[0, 1]]`.
+
+Then you can get a ranking slightly below that
+
+![](assets\1v1_ranking.png)
+
+![](assets\3v3_ranking.png)
+
+![](assets\2p_ranking.png)
+
+![](assets\5p_ranking.png)
 
 # Acknowledgments
 
 [jidiai/Competition_3v3snakes](https://github.com/jidiai/Competition_3v3snakes)
+
