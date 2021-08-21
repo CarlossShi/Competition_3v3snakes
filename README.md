@@ -14,7 +14,7 @@ Demo heuristic algorithm of [snakes 3V3](http://www.jidiai.cn/snakes) on [Jidi](
 
 Run `python run_log.py --my_ai "debug" --opponent "debug" > output.txt` and wait for one minute.
 
-Check `output.txt` in main directory and game matrix images in `/images_init_board` and territory matrix images in `/images_board`.
+Check `output.txt` in main directory, game matrix images in `/images_init_board` and territory matrix images in `/images_board`.
 
 ## Submit
 
