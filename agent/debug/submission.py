@@ -316,6 +316,13 @@ def my_controller(observation_list, action_space_list, is_act_continuous):
     bd = copy.deepcopy(init_board)
 
     # plot board with seaborn
+
+    if not os.path.exists('images_init_board'):
+        os.makedirs('images_init_board')
+
+    if not os.path.exists('images_board'):
+        os.makedirs('images_board')
+
     if ctrl_agent_index == 0:
         board_with_beans = copy.deepcopy(bd.board)
         for x, y in beans_positions:
