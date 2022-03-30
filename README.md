@@ -1,6 +1,6 @@
 # Competition_3v3snakes
 
-Demo heuristic algorithm of [snakes 3V3](http://www.jidiai.cn/snakes) on [Jidi](http://www.jidiai.cn/) platform. Also suitable for [snakes 1V1](http://www.jidiai.cn/snakes1v1), [snakes 2P](http://www.jidiai.cn/snakes2p) and [snakes 5P](http://www.jidiai.cn/snakes5p). For algorithm details, see [Jidi Snakes 3V3](https://www.yuchen.xyz/2021/08/21/Jidi%20Snakes%203V3/).
+Demo heuristic algorithm of [snakes 3V3](http://www.jidiai.cn/snakes) on [Jidi](http://www.jidiai.cn/) platform. Also suitable for [snakes 1V1](http://www.jidiai.cn/snakes1v1), [snakes 2P](http://www.jidiai.cn/snakes2p) and [snakes 5P](http://www.jidiai.cn/snakes5p). For algorithm details, see [Jidi Snakes 3V3](https://www.yuchen.xyz/2021/08/21/jidi-snakes-3v3/).
 
 <img src="assets/game_matrix_200.gif" alt="game_matrix_200" style="zoom: 67%;" />
 
